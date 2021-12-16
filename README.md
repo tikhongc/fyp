@@ -12,7 +12,7 @@ dataset contains:
 2.csv file include lots of audio features and mfccs
 
 For MusicGenre_Deeplearning(1), I mainly take the mel-log-specturm png files as inputs and use transfer learing(Xperception model) to train the model.
-
+The accracy is low,need to change the transferred model.
 
 Music Mood classification:
 files : Musicmood-dataset,Musicmood-Deeplearning
@@ -40,6 +40,8 @@ Next need to do:
 If it's for a product,costomer will only provide a slice of an audio and then tell you to predict the mood.
 So,I might need to know how the spotify calculate the audio features inside and then I can get a similar features by calculating through a audio. 
 Anyway,use spotify to train a model is a good idea.
+The accracy is nearly 70%,need to try to use the transferred model.
+
 
 how to calculate the audio features :
 reference:
