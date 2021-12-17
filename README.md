@@ -1,14 +1,20 @@
 # fyp
 Music Tagging Project:
+
 Classifiy music into different mood and genre.
 
 Music genre classification:
+
 files:Creating_Dataset,MusicGenre_Deeplearning(1)
 
 Creating_Dataset:
+
 including full 30s audio and splitted 10s audio
+
 dataset contains: 
+
 1.mel-spectrum png files
+
 2.csv file include lots of audio features and mfccs
 
 For MusicGenre_Deeplearning(1), I mainly take the mel-log-specturm png files as inputs and use transfer learing(Xperception model) to train the model.
